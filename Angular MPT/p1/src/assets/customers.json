@@ -1,0 +1,22 @@
+[
+    {
+        "name": "Megha",
+        "email": "megha@gmail.com",
+        "phone": 8865742415
+    }, {"name": "Pooja",
+        "email": "pooja@gmail.com",
+        "phone": 9974859632
+    }, {
+        "name": "Tanu",
+        "email": "tanu@gmail.com",
+        "phone": 8878521425
+    }, {
+        "name": "Akash",
+        "email": "akash@gmail.com",
+        "phone": 9874563214
+    },
+    {"name": "Abhishek",
+        "email": "abhi@gmail.com",
+        "phone": 7896541235
+    }
+]

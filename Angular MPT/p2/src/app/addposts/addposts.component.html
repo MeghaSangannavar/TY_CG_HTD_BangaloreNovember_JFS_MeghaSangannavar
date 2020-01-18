@@ -1,0 +1,31 @@
+<div class="alert alert-success" *ngIf='message'>{{message}}</div>
+<div class="col-md-4 offset-md-4 mt-4">
+    <form #addPostsForm='ngForm' (ngSubmit)='addPosts(addPostsForm)'>
+        <div class = "form-group">
+            <label for="userId">User Id</label>
+            <input type="number" name="userId" id="userId"
+            #userId='ngModel' ngModel class="form-control" required>
+        </div>
+        <div class = "form-group">
+            <label for="id">Id</label>
+            <input type="number" name="id" id="id"
+            #id='ngModel' ngModel class="form-control" required>
+        </div>
+        <div class = "form-group">
+                <label for="title">Title</label>
+                <input type="text" name="title" id="title"
+                #title='ngModel' ngModel required class="form-control" required>
+        </div>
+        <div class = "form-group">
+                <label for="body">Body</label>
+                <input type="text" name="body" id="body"
+                #body='ngModel' ngModel  required 
+                class="form-control">
+        </div>
+        <button type="submit"
+        class="btn btn-outline-primary float-right">
+             Add Product
+        </button>
+    </form>
+</div>
+
